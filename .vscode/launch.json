@@ -1,0 +1,115 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Driver",
+            "request": "launch",
+            "mainClass": "cetus.exec.Driver",
+            "projectName": "cetus-1.4.4_65355bb8",
+            "args": "-alias=2 -Program-analysis ./NPB3.3-SER-C/CG/cg.c",
+            "vmArgs": "-Xms4G -Xmx4G"
+           
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLists",
+            "request": "launch",
+            "mainClass": "cetus.gui.MergeTwoSortedLists",
+            "projectName": "cetus-1.4.4_65355bb8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParentheses",
+            "request": "launch",
+            "mainClass": "cetus.gui.ValidParentheses",
+            "projectName": "cetus-1.4.4_65355bb8"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPServer",
+            "request": "launch",
+            "mainClass": "cetus.server.TCPServer",
+            "projectName": "cetus-1.4.4_65355bb8"
+        },
+        {
+            "type": "java",
+            "name": "Launch CetusGUI",
+            "request": "launch",
+            "mainClass": "cetus.server.speed_up.CetusGUI",
+            "projectName": "cetus-1.4.4_65355bb8"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestTripletRunner",
+            "request": "launch",
+            "mainClass": "cetus.unittest.TestTripletRunner",
+            "projectName": "cetus-1.4.4_65355bb8"
+        },
+        {
+            "type": "java",
+            "name": "Launch OMP2GPUDriver",
+            "request": "launch",
+            "mainClass": "omp2gpu.exec.OMP2GPUDriver",
+            "projectName": "cetus-1.4.4_65355bb8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Driver(1)",
+            "request": "launch",
+            "mainClass": "cetus.exec.Driver",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLists(1)",
+            "request": "launch",
+            "mainClass": "cetus.gui.MergeTwoSortedLists",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParentheses(1)",
+            "request": "launch",
+            "mainClass": "cetus.gui.ValidParentheses",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "Launch TCPServer(1)",
+            "request": "launch",
+            "mainClass": "cetus.server.TCPServer",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "Launch CetusGUI(1)",
+            "request": "launch",
+            "mainClass": "cetus.server.speed_up.CetusGUI",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestTripletRunner(1)",
+            "request": "launch",
+            "mainClass": "cetus.unittest.TestTripletRunner",
+            "projectName": "cetus-1.4.4"
+        },
+        {
+            "type": "java",
+            "name": "Launch OMP2GPUDriver(1)",
+            "request": "launch",
+            "mainClass": "omp2gpu.exec.OMP2GPUDriver",
+            "projectName": "cetus-1.4.4"
+        }
+    ]
+}
